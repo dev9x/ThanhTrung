@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>test</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="../css/webLayout.css" rel="stylesheet" type="text/css">
+		<script></script>
+		<!--<script src="//cdn.sublimevideo.net/js/SITE_TOKEN.js"></script>-->
+		<link href="http://vjs.zencdn.net/5.8.8/video-js.min.css" rel="stylesheet">
+		<script src="http://vjs.zencdn.net/5.8.8/video.min.js"></script>
+	</head>
+	
+	<body>
+		<header id="header">
+			<div id="hLeft">
+				<div id="logo">
+					<img src="../img/sGS.png" alt="logo" width="100%" height="100%">
+				</div>
+				<div id="blogName"> <span>AlphaOmega</span></div>
+			</div>
+			
+			<div id="hCenter">
+				<div id="slideShow">
+					<!--<img src="../img/" alt="" width="100%" height="100%">-->
+					<!--<img src="../img/sChocolate.gif" alt="chocolate">-->
+					<!--<img src="../img/sG.gif" alt="beauty">-->
+					<!--<img src="../img/sChrome.gif" alt="chrome">-->
+					<img src="../img/sIE.png" alt="ie">
+					<!--<img src="../img/sFuji-chan.jpg" alt="Fuji-chan">-->
+				</div>
+			</div>
+			
+			<div id="hRight">
+				<div id="language">
+					<div id="lSelect"></div>
+					<div id="lFlag"></div>
+				</div>
+				
+				<div id="followH">
+					<ul>
+						<li class="fhY"><a href="" title="Subscribe on Youtube">YouTube</a></li>
+						<li class="fhT"><a href="" title="Follow on Twitter">Twitter</a></li>
+						<li class="fhF"><a href="" title="Follow on Facebook">Facebook</a></li>
+						<li class="fhR"><a href="" title="Follow on RSS">RSS</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+		
+		<nav id="nav">
+			<ul>
+				<!--<li class=""><a href="" title=""></a></li>-->
+				<li class="it"><a href="" title="Information Technology">IT</a></li>
+				<li class="fl"><a href="" title="Foreign Language">FL</a></li>
+				<li class="mp"><a href="" title="Medicine and Pharmacy">MP</a></li>
+				<li class="home"><a href="" title="Home">Home</a></li>
+				<li class="news"><a href="" title="News">News</a></li>
+				<li class="relax"><a href="" title="Relax">Relax</a></li>
+				<li class="search"><a href="" title="Search">Search</a></li>
+			</ul>
+		</nav>
+		
+		<main id="main">
+			<section id="sLeft">
+			</section>
+			
+			<section id="content">
+				<article>
+					<header class="header"></header>
+					<section class="content">
+						<video id="video" controls preload="metadata" width="600" height="290">
+							<!--<source src="../video/test.flv" type="video/x-flv">
+							<source src="../video/sintel-short.mp4" type="video/mp4">-->
+							<source src="../video/sintel-short.webm" type="video/webm">
+							<track kind="subtitles" srclang="vn" label="Việt Nam (srt)" src="../subtitles/srt/sintel-vn.srt" default>
+							<track kind="subtitles" srclang="vn" label="Việt Nam (vtt)" src="../subtitles/vtt/sintel-vn.vtt">
+							<track kind="subtitles" srclang="en" label="English (srt)" src="../subtitles/srt/sintel-en.srt">
+							<track kind="subtitles" srclang="en" label="English (vtt)" src="../subtitles/vtt/sintel-en.vtt">
+						</video>
+					</section>
+					<footer class="footer"></footer>
+				</article>
+				
+				<article>
+					<header class="header"></header>
+					<section class="content">
+						<!--<video id="example_video_1" class="video-js vjs-default-skin" width="600" height="290" controls preload="metadata"
+							   src="../video/test.flv"
+							   data-setup='{"example_option":true}'
+						>
+							<!--<source src="../video/test.flv" type="video/mp4">->
+							<track kind="subtitles" srclang="vn" label="Việt Nam" src="../subtitles/srt/sintel-vn.srt" default>
+							<track kind="subtitles" srclang="en" label="English" src="../subtitles/srt/sintel-en.srt">
+							<p class="vjs-no-js">
+						</video>-->
+					</section>
+					<footer class="footer"></footer>
+				</article>
+				
+				<article>
+					<header class="header"></header>
+					<section class="content">
+						<!--<div itemprop="video" itemscope="" itemtype="http://schema.org/VideoObject">
+						<meta itemprop="duration" content="T1M33S" />
+						<meta itemprop="thumbnailUrl" content="thumbnail.jpg" />
+							<div class="player_rtmp" style="width: 624px; height: 260px;" data-rtmp="rtmp://stream.blacktrash.org/cfx/st/">
+								<video id="player_rtmp" class="flowplayer" controls width="624" height="260" preload="metadata">
+									<source type="application/x-mpegURL" src="http://media.blacktrash.org/stsp.m3u8"/>
+									<source type="video/x-flv" src="mp4:stsp"/>
+								</video>
+							</div>
+						</div>-->
+					</section>
+					<footer class="footer"></footer>
+				</article>
+			</section>
+			
+			<aside id="sRight">
+			</aside>
+		</main>
+		
+		<footer id="footer">
+			<div id="fLeft">
+				<div id="location">
+					<iframe
+						src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61349.564559913575!2d108.17122016558119!3d16.047432506863256!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x314219c792252a13%3A0xfc14e3a044436487!2zRGEgTmFuZywgSOG6o2kgQ2jDonUsIERhIE5hbmcsIFZpZXRuYW0!5e0!3m2!1sen!2s!4v1483633287321"
+						width="138" height="138" frameborder="0" style="border:0" allowfullscreen="">
+					</iframe>
+				</div>
+			</div>
+			
+			<div id="fCenter">
+				<div id="info">					
+					<p class="copyright">&copy 2016</p>					
+					<h1>Alpha Omega</h1>					
+					<p>All Rights Reserved</p>
+				</div>
+			</div>
+			
+			<div id="fRight">
+				<ul id="followF">
+					<li class="ffR"><a href="" title="Follow on RSS">RSS</a></li>
+					<li class="ffF"><a href="" title="Follow on Facebook">Facebook</a></li>
+					<li class="ffT"><a href="" title="Follow on Twitter">Twitter</a></li>
+					<li class="ffY"><a href="" title="Subscribe on Youtube">You Tube</a></li>
+				</ul>
+			</div>
+		</footer>
+	</body>
+</html>
